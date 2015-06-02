@@ -25,7 +25,7 @@ class ServeadvertisementsController < ApplicationController
 
    def get_account_id(params)
 
-    params[:accountId].to_i
+    params[:account_id].to_i
     
    end
 
