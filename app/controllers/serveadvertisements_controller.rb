@@ -22,11 +22,7 @@ class ServeadvertisementsController < ApplicationController
    end
 
    def ajax
-
-  
-
-   	
-   	
+ 	
    end
 
    private
