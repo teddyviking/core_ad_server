@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
 
-get '/advertisements' => 'serveadvertisements_controller#process_request'
+get '/advertisements' => 'serveadvertisements#process_request'
 
 end
