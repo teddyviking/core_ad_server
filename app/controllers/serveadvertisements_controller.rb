@@ -2,7 +2,6 @@ class ServeadvertisementsController < ApplicationController
 
    def process_request
     response.headers["Access-Control-Allow-Origin"] = "*"
-
     account_id = get_account_id(params)
 
     render :json => { newAdvertisement: get_advertisement, accountId: account_id }
