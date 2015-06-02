@@ -23,14 +23,9 @@ class ServeadvertisementsController < ApplicationController
 
    def ajax
 
-      respond_to do |format|
-        format.js do
-        @text = "hi"
-        
-      end
-    end
+  
 
-   	render 'ajax'
+   	
    	
    end
 
