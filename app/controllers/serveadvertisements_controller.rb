@@ -21,7 +21,7 @@ class ServeadvertisementsController < ApplicationController
   
    end
 
-   def load_js
+   def ajax
 
    	render 'ajax'
    	
