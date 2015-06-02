@@ -2,7 +2,7 @@ class ServeadvertisementsController < ApplicationController
 
    def process_request
     response.headers["Access-Control-Allow-Origin"] = "*"
-    render :json => { newAdvertisement: get_advertisement }
+    render :json => { newAdvertisement: get_advertisement}
    end
 
    def get_advertisement
