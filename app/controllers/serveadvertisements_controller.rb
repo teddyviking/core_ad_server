@@ -22,6 +22,7 @@ class ServeadvertisementsController < ApplicationController
    end
 
    def ajax
+   	  response.headers["Content-Type"] = "application/javascript"
  	
    end
 
